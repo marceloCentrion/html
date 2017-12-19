@@ -1,0 +1,109 @@
+.logo {
+  float: left;
+  font: 2.5em Montserrat, Tahoma, Verdana;
+  color: #F00;
+  width: 400px;
+}
+
+h1{
+  color: #F00;
+  font-family: Montserrat, Tahoma, Verdana;
+  font-size: 18pt;
+}
+
+#banner {
+  width: 100%;
+  height: 500px;
+  float: left;
+  background: url(../img/1.jpg) fixed center;
+  background-size: cover;
+  margin-top: -20px;
+}
+img{
+	width: 100%;
+}
+.logo img {
+  width: 20%;
+}
+.centro{
+	text-align: center;
+}
+.info {
+  padding-top: 15px;
+  float: right;
+}
+.info span {
+  color: #F00;
+}
+.info a {
+  color: #ccc;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.info a:hover {
+  color: #333;
+}
+
+main{
+	margin-top: 10px;
+}
+
+.navbar {
+  border-radius: 0px;
+  margin-top: 10px;
+  background: #FFF;
+  border: 0px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+.navbar .container ul li {
+  padding: 10px 5px;
+  border-left: 1px solid #ccc;
+}
+.navbar .container ul li a {
+  font: 1.1em Montserrat, Tahoma, Verdana;
+}
+.navbar .container ul li a:hover {
+  color: #ccc;
+  background: #333;
+}
+.navbar .container li:last-child {
+  border-right: 1px solid #ccc;
+}
+.navbar .container li:hover, .navbar .container li:active, .navbar .container li a:active {
+  color: #ccc;
+  background: #333;
+}
+.navbar .container .open {
+  background: #333;
+}
+.navbar .container .open :active, .navbar .container .open a, .navbar .container .open a:active, .navbar .container .open li, .navbar .container .open ul {
+  background: #333 !important;
+  color: #ccc !important;
+}
+.navbar .container .open .dropdown-menu li {
+  border: 0;
+  margin: 0;
+}
+.navbar .container .open .dropdown-menu li :hover {
+  color: #333 !important;
+  background: #ccc !important;
+}
+footer {
+  background: #333;
+  width: 100%;
+  padding: 10px 0px;
+  color: #fff;
+  margin-top: 20px;
+}
+footer img {
+  width: 10%;
+}
+footer a, header a {
+  transition: all 0.5s;
+  color: #ccc;
+  margin-left: 10px;
+  text-decoration: none;
+}
+footer a :hover, header a :hover {
+  color: #f00;
+}
